@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a9722ef2fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="modal hidden" tabindex="0">
+      <div class="card" tabindex="0">User Profile</div>
+    </div>
+    <nav class="navbar">
+      <i class="fa-solid fa-bars-staggered"></i>
+      <h1>LarnU Api Profile</h1>
+      <i class="fa-solid fa-font-awesome"></i>
+    </nav>
+
+    <main class="main">
+      <div class="spinner-container hidden">
+        <i class="fa-solid fa-circle-notch icon--spiner"></i>
+      </div>
+      <form action="" class="form">
+        <h2 class="form__heading">Sign Up</h2>
+        <label class="form__label" for="discord-id">
+          <input
+            class="form__input"
+            type="password"
+            id="discord-id"
+            placeholder="Dicord ID"
+          />
+        </label>
+
+        <label class="form__label" for="email">
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            placeholder="Email"
+          />
+          <i class="fa-solid fa-envelope form__icon"></i>
+        </label>
+        <button class="form__button" type="submit">Buscar</button>
+      </form>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
